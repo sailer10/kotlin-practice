@@ -1,0 +1,38 @@
+@base = http://localhost:8080
+@id = 1
+
+### 생성: 응답 id에 맞추어 위 @id 수정
+POST {{base}}/api/study-records
+Content-Type: application/json
+
+{"title":"Kotlin null safety","description":"safe call과 Elvis 연습"}
+
+### 목록
+GET {{base}}/api/study-records
+
+### 조회
+GET {{base}}/api/study-records/{{id}}
+
+### 내용 교체
+PUT {{base}}/api/study-records/{{id}}
+Content-Type: application/json
+
+{"title":"Kotlin functions","description":null}
+
+### 상태 변경
+PATCH {{base}}/api/study-records/{{id}}/status
+Content-Type: application/json
+
+{"status":"COMPLETED"}
+
+### 완료 목록
+GET {{base}}/api/study-records?status=COMPLETED
+
+### 삭제
+DELETE {{base}}/api/study-records/{{id}}
+
+### 잘못된 입력: 400
+POST {{base}}/api/study-records
+Content-Type: application/json
+
+{"title":" "}

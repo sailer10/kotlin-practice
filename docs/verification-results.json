@@ -1,0 +1,69 @@
+{
+  "default": {
+    "tests": 97,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "classes": [
+      "com.example.kotlinpractice.application.StudyRecordApiTest",
+      "com.example.kotlinpractice.examples.basics.BasicsTest",
+      "com.example.kotlinpractice.examples.classes.ClassesTest",
+      "com.example.kotlinpractice.examples.collections.CollectionsTest",
+      "com.example.kotlinpractice.examples.controlflow.ControlFlowTest",
+      "com.example.kotlinpractice.examples.coroutines.CoroutinesTest",
+      "com.example.kotlinpractice.examples.dsl.DslTest",
+      "com.example.kotlinpractice.examples.functional.FunctionalTest",
+      "com.example.kotlinpractice.examples.functions.FunctionsTest",
+      "com.example.kotlinpractice.examples.generics.GenericsTest",
+      "com.example.kotlinpractice.examples.interop.InteropTest",
+      "com.example.kotlinpractice.examples.modeling.ModelingTest",
+      "com.example.kotlinpractice.examples.nullability.NullabilityTest",
+      "com.example.kotlinpractice.examples.operators.OperatorsTest",
+      "com.example.kotlinpractice.examples.properties.PropertiesTest",
+      "com.example.kotlinpractice.examples.scopeandexceptions.ScopeAndExceptionsTest",
+      "com.example.kotlinpractice.KotlinPracticeApplicationTests"
+    ],
+    "failure_types": []
+  },
+  "exercise": {
+    "tests": 85,
+    "failures": 85,
+    "errors": 0,
+    "skipped": 0,
+    "classes": [
+      "com.example.kotlinpractice.exercises.basics.BasicsTest",
+      "com.example.kotlinpractice.exercises.classes.ClassesTest",
+      "com.example.kotlinpractice.exercises.collections.CollectionsTest",
+      "com.example.kotlinpractice.exercises.controlflow.ControlFlowTest",
+      "com.example.kotlinpractice.exercises.coroutines.CoroutinesTest",
+      "com.example.kotlinpractice.exercises.dsl.DslTest",
+      "com.example.kotlinpractice.exercises.functional.FunctionalTest",
+      "com.example.kotlinpractice.exercises.functions.FunctionsTest",
+      "com.example.kotlinpractice.exercises.generics.GenericsTest",
+      "com.example.kotlinpractice.exercises.interop.InteropTest",
+      "com.example.kotlinpractice.exercises.modeling.ModelingTest",
+      "com.example.kotlinpractice.exercises.nullability.NullabilityTest",
+      "com.example.kotlinpractice.exercises.operators.OperatorsTest",
+      "com.example.kotlinpractice.exercises.properties.PropertiesTest",
+      "com.example.kotlinpractice.exercises.scopeandexceptions.ScopeAndExceptionsTest"
+    ],
+    "failure_types": [
+      "kotlin.NotImplementedError"
+    ]
+  },
+  "http": {
+    "result": "PASS",
+    "port": 49817,
+    "checks": [
+      "201 + Location",
+      "title normalization",
+      "default status",
+      "status update",
+      "content update preserves status",
+      "status filter",
+      "Unicode title 400",
+      "delete 204",
+      "missing 404"
+    ]
+  }
+}
